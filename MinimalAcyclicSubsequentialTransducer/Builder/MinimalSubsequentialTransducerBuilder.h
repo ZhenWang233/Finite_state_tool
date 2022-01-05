@@ -3,6 +3,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <climits>
 #include "../AcyclicSubsequentialTransducer/SubsequentialTransducer.h"
 
 SubsequentialTransducer createMinimalSubsequentialTransducerBySortedFile(const vector<pair<string, string>>& input, size_t maxWordLength);

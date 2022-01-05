@@ -2,8 +2,8 @@
 #include <vector>
 #include <string>
 #include <fstream>
-#include "CommandShell\Dispatcher\CommandDispatcher.h"
-
+#include "CommandShell/Dispatcher/CommandDispatcher.h"
+#include <algorithm>
 using namespace std;
 
 

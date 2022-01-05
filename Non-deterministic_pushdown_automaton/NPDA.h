@@ -5,6 +5,7 @@
 #include <stack>
 #include <queue>
 #include <string>
+#include <algorithm>
 using namespace std;
 
 const int ALPHABET_SIZE = 26;

@@ -12,7 +12,7 @@ class CommandDispatcher
 
 public:
 	CommandDispatcher();
-	std::string dispatch(const std::string&);
+	std::string dispatch(std::string&);
 	std::string dispatch(const std::vector<std::string>&);
 	void reset();
 
